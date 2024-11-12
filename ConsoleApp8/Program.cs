@@ -24,11 +24,11 @@ namespace ConsoleApp8
 
                 Console.WriteLine($"Egyenleg: {penz}");
 
-                Jatek(penz, tet);
+                HuzLap(penz, tet);
 
             }
 
-            static void Jatek(int penz, int tet)
+            static void HuzLap(int penz, int tet)
             {
                 Random r = new Random();
                 string[] lap = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
